@@ -57,8 +57,10 @@ h1 {
 }
 
 .main__logo img {
-  max-width: 550%; /* Make the image twice as wide */
-  max-height: 550%; /* Make the image twice as tall */
+  position: relative;
+  left: 20px;
+  max-width: 560%; /* Make the image twice as wide */
+  max-height: 650%; /* Make the image twice as tall */
   width: auto; /* Maintain aspect ratio */
   height: auto; /* Maintain aspect ratio */
   border: none !important;
