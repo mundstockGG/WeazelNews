@@ -40,3 +40,7 @@ The images used in this project were generated with AI and belong to the project
 ## License:
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Preview:
+![Weazel News Preview](https://media.discordapp.net/attachments/962372455425540181/1205751284414550026/image.png?ex=65d98263&is=65c70d63&hm=ccad54cae18cefb2642c46f3d832980e3d89b38c94bd28d63a2e1c474d514e38&=&format=webp&quality=lossless&width=289&height=584)
+
