@@ -19,8 +19,8 @@ This project is an interactive web application designed to emulate a Weazel News
 ## Usage:
 
 1. Access the Weazel News site in-game via the designated URL or interface.
-2. Browse through the latest news articles, watch videos, and engage with interactive elements.
-3. Stay informed about in-game events, updates, and RP news through the Weazel News platform.
+2. Open the JSON and start editing:
+### Article #1 Title: 36 characters maximum
 
 ## Contributing:
 
