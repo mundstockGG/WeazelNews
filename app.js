@@ -13,13 +13,13 @@ app.use(express.static(__dirname + '/src'));
 // Read the JSON data file
 const jsonData = fs.readFileSync('./data/articles.json', 'utf8');
 const data = JSON.parse(jsonData);
-const { logoUrl, articles } = data; // Assuming your JSON structure has a key named 'logoUrl'
+const { logoUrl, articles, edition} = data; // Assuming your JSON structure has a key named 'logoUrl'
 
 // Define routes and middleware
 // Example route
 app.get('/', (req, res) => {
-    // Pass the 'logoUrl' variable along with the 'articles' to the EJS template
-    res.render('index', { logoUrl: logoUrl, articles: articles });
+    const desiredArticleId = 1; // Replace 1 with the ID of the desired article
+    res.render('index', { logoUrl: logoUrl, articles: articles, desiredArticleId: desiredArticleId, edition: edition });
 });
 
 // Start the server
