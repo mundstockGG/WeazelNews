@@ -12,56 +12,44 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"
     />
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <div class="main__wrapper">
       <main>
+        <% const article = articles.find(article => article.id === desiredArticleId); %>
         <!-- <h1>The Codepen Times</h1> -->
         <div class="main__logo">
-            <img src="<%= logoUrl %>" alt="Main Logo">
+          <img src="<%= logoUrl %>" alt="Main Logo" />
         </div>
         <aside>
           <div>
-            <div class="issue">Edición #1</div>
+            <div class="issue">Edición  <%- edition %></div>
             <div class="class-date"><span id="class-date"></span></div>
             <div class="edition">Dando las <b>VERDADERAS</b> noticias</div>
           </div>
         </aside>
         <h2 class="title--large main-title">
-          ¡Temporada de Caza en Blaine County!
+          <%- article.title %>
         </h2>
         <div class="main-text multi-column">
           <p>
-            La emoción está en el aire en Blaine County mientras los residentes
-            se preparan para la esperada apertura de la temporada de caza. Este
-            año, el Departamento de Vida Silvestre ha anunciado una temporada
-            excepcionalmente larga y una lista expandida de presas, incluidos
-            ciervos, jabalíes, coyotes y más.
+            <%- article.content1 %>
           </p>
           <p>
-            Para aquellos que no participan en la caza, esta temporada ofrece
-            una oportunidad única para disfrutar de la belleza natural de Blaine
-            County y apoyar la tradición local. Se anima a los no cazadores a
-            disfrutar de caminatas escénicas, paseos en bicicleta y observación
-            de vida silvestre en áreas designadas.
+            <%- article.content2 %>
           </p>
           <p>
-            <em
-              >Recordemos cazar de manera responsable y respetuosa, manteniendo
-              siempre la seguridad en mente. Que esta temporada traiga buenos
-              recuerdos y experiencias para todos los que participan,</em
-            >
-            dijo el Alcalde.
+            <%- article.content3 %>
           </p>
         </div>
         <a class="terrarium" href="javascript:void(0)">
           <figure>
-            <img
-              src="https://media.discordapp.net/attachments/1204830926434078750/1205731051586981948/mundstock_realistic_and_detailed_cartoon_style_a_person_hunting_6f557612-cd72-4f8d-8a44-0f186352f695.png?ex=65d96f8c&is=65c6fa8c&hm=50b06d087187e477201017dfcc8e21e2ccd7f269783aed773c966d331cd0cffb&=&format=webp&quality=lossless&width=445&height=445"
-            />
+            <article>
+                <img src="<%= article.imageUrl %>" alt="<%= article.title %> Image">
+            </article>
             <figcaption>
-              Temporada de Caza Abierta en todo el condado de Blane
+              <label for=""><%- article.imageLegend %></label>
             </figcaption>
           </figure></a
         ><a
@@ -82,7 +70,10 @@
               dañados. Las autoridades instan a los residentes a permanecer en
               sus hogares y reportar cualquier actividad sospechosa. El
               Departamento de Policía de Los Santos ha aumentado las patrullas
-              en el área para prevenir más violencia.
+              en el área para prevenir más violencia.Las autoridades instan a
+              los residentes a permanecer en sus hogares y reportar cualquier
+              actividad sospechosa. El Departamento de Policía de Los Santos ha
+              aumentado las patrullas en el área para prevenir más violencia.
             </p>
           </div></a
         ><a class="hogwarts" href="javascript:void(0)">
@@ -245,6 +236,6 @@
       </main>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="./src/main.js"></script>
+    <script src="/main.js"></script>
   </body>
 </html>
