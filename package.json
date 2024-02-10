@@ -4,7 +4,8 @@
   "description": "![Weazel News Logo](https://media.discordapp.net/attachments/841197221578801172/1205758405134913566/NTeNCse.png?ex=65d98905&is=65c71405&hm=1acbd4d740759050ab4bf1488e4dc3b488ce8ce34f1711431611c5e09186c49d&=&format=webp&quality=lossless&width=1200&height=165)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon app.js"
   },
   "keywords": [],
   "author": "mundstock",
@@ -13,6 +14,7 @@
     "body-parser": "^1.20.2",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "mongoose": "^8.1.1"
+    "mongoose": "^8.1.1",
+    "nodemon": "^3.0.3"
   }
 }
