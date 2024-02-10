@@ -2,21 +2,43 @@
     "logoUrl": "https://media.discordapp.net/attachments/841197221578801172/1205758405134913566/NTeNCse.png?ex=65d98905&is=65c71405&hm=1acbd4d740759050ab4bf1488e4dc3b488ce8ce34f1711431611c5e09186c49d&=&format=webp&quality=lossless&width=1200&height=165",
     "edition": "#2",
     "articles": [
-      {
-        "id": 1,
-        "title": "¡Temporada de Caza en Blaine County!",
-        "imageUrl": "https://media.discordapp.net/attachments/1204830926434078750/1205731051586981948/mundstock_realistic_and_detailed_cartoon_style_a_person_hunting_6f557612-cd72-4f8d-8a44-0f186352f695.png?ex=65d96f8c&is=65c6fa8c&hm=50b06d087187e477201017dfcc8e21e2ccd7f269783aed773c966d331cd0cffb&=&format=webp&quality=lossless&width=531&height=531",
-        "content1": "La emoción está en el aire en Blaine County mientras los residentes se preparan para la esperada apertura de la temporada de caza. Este año, el Departamento de Vida Silvestre ha anunciado una temporada excepcionalmente larga y una lista expandida de presas, incluidos ciervos, jabalíes, coyotes y más.",
-        "content2": "Para aquellos que no participan en la caza, esta temporada ofrece una oportunidad única para disfrutar de la belleza natural de Blaine County y apoyar la tradición local. Se anima a los no cazadores a disfrutar de caminatas escénicas, paseos en bicicleta y observación de vida silvestre en áreas designadas.",
-        "content3": "<em>Recordemos cazar de manera responsable y respetuosa, manteniendo siempre la seguridad en mente. Que esta temporada traiga buenos recuerdos y experiencias para todos los que participan</em>, dijo el Alcalde.",
-        "imageLegend": "Temporada de Caza Abierta en todo el condado de Blane"
-      },
-      {
-        "id": 2,
-        "title": "Tensiones entre Pandillas Estallan en Chamberlain Hills",
-        "imageUrl": "/path/to/article2/image.png",
-        "content": "Content of article 2..."
-      }
+        {
+            "_comment": "",
+            "id": 1,
+            "title": "¡Temporada de Caza en Blaine County!",
+            "imageUrl": "https://media.discordapp.net/attachments/1204830926434078750/1205731051586981948/mundstock_realistic_and_detailed_cartoon_style_a_person_hunting_6f557612-cd72-4f8d-8a44-0f186352f695.png?ex=65d96f8c&is=65c6fa8c&hm=50b06d087187e477201017dfcc8e21e2ccd7f269783aed773c966d331cd0cffb&=&format=webp&quality=lossless&width=531&height=531",
+            "content1": "La emoción está en el aire en Blaine County mientras los residentes se preparan para la esperada apertura de la temporada de caza. Este año, el Departamento de Vida Silvestre ha anunciado una temporada excepcionalmente larga y una lista expandida de presas, incluidos ciervos, jabalíes, coyotes y más.",
+            "content2": "Para aquellos que no participan en la caza, esta temporada ofrece una oportunidad única para disfrutar de la belleza natural de Blaine County y apoyar la tradición local. Se anima a los no cazadores a disfrutar de caminatas escénicas, paseos en bicicleta y observación de vida silvestre en áreas designadas.",
+            "content3": "<em>Recordemos cazar de manera responsable y respetuosa, manteniendo siempre la seguridad en mente. Que esta temporada traiga buenos recuerdos y experiencias para todos los que participan</em>, dijo el Alcalde.",
+            "imageLegend": "Temporada de Caza Abierta en todo el condado de Blane"
+        },
+        {
+            "_comment": "",
+            "id":2,
+            "title":"Tensiones entre Pandillas Estallan en Chamberlain Hills",
+            "imageUrl":"https://media.discordapp.net/attachments/1204830926434078750/1205736714753277952/mundstock_realistic_and_detailed_cartoon_style_a_crime_scene_on_041190ee-4d3f-407b-87fb-4725fd142d1a.png?ex=65d974d2&is=65c6ffd2&hm=5fad2c910002805cd054bc24ecff483c086a6e0df77fd2f2ccb52f29b74418b8&=&format=webp&quality=lossless&width=556&height=445",
+            "content":"Las tranquilas calles de Chamberlain Hills estallaron en caosanoche mientras retumbaban los disparos por el vecindario. Fuentes indican que las tensiones entre las pandillas rivales, los Ballas y las Familias, alcanzaron un punto crítico, resultando en un enfrentamiento violento que dejó varios heridos y edificios dañados. Las autoridades instan a los residentes a permanecer en sus hogares y reportar cualquier actividad sospechosa. El Departamento de Policía de Los Santos ha aumentado las patrullas en el área para prevenir más violencia.Las autoridades instan a los residentes a permanecer en sus hogares y reportar cualquier actividad sospechosa. El Departamento de Policía de Los Santos ha aumentado las patrullas en el área para prevenir más violencia."
+        },
+        {
+            "_comment": "",
+            "id":3,
+            "title": "50% DE DESCUENTO EN RESORT DE CASINO DIAMOND",
+            "imageUrl": "https://media.discordapp.net/attachments/1204830926434078750/1205739255218053211/mundstock_realistic_and_detailed_cartoon_style_coupon_discount__a9f14ef4-d9ce-4898-8931-f19e7cc6bd19.png?ex=65d9772f&is=65c7022f&hm=10a7b7ea174c29b651a18ee4c05d9ef292ef93459a9a02e0ae24961c8f17a468&=&format=webp&quality=lossless&width=254&height=445"
+        },
+        {
+            "_comment": "",
+            "id":4,
+            "title": "Hombre Volador Sighting en Vinewood",
+            "content": "Testigos afirman haber visto a un hombre volando sobre los rascacielos de Vinewood usando lo que parecían ser mochilas propulsoras. Las autoridades están investigando el incidente mientras los residentes especulan sobre la identidad del misterioso 'hombre volador'. Fue increíble. <em>Estaba caminando por la acera y de repente vi a este tipo volando por encima de mí, pensé que estaba alucinando...</em> - Testigo Anónimo.",
+            "imageUrl": "https://media.discordapp.net/attachments/1204830926434078750/1205746250587045988/mundstock_realistic_and_detailed_cartoon_style_a_long_distance__f82b3cac-1247-40ff-8105-8f4da07405dd.png?ex=65d97db3&is=65c708b3&hm=609272e358514e2840aa997cff8d94816a903d60faeea88a550c331b5b654c46&=&format=webp&quality=lossless&width=445&height=445",
+            "imageLegend": "Fotografía tomada por un testigo anónimo."
+        },
+        {
+            "_comment": "",
+            "id":5,
+            "title": "Helicóptero Desaparecido en el Monte Chiliad",
+            "content": "Autoridades reportan la misteriosa desaparición de un helicóptero privado que sobrevolaba el Monte Chiliad. Aunque se desplegó un equipo de búsqueda y rescate, no se han encontrado rastros del aparato ni de sus ocupantes.",
+            "imageUrl": "https://media.discordapp.net/attachments/1204830926434078750/1205749196494348309/mundstock_realistic_and_detailed_cartoon_style_a_militar_helico_a73a169b-2d07-4655-a196-b262bc7d1964.png?ex=65d98072&is=65c70b72&hm=dce5e58fd0f67b12b2815e7f7bb8913740c9317d975620bec0e452e910435233&=&format=webp&quality=lossless&width=445&height=445"
+        }
     ]
-  }
-  
+}
