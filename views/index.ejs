@@ -18,7 +18,6 @@
     <div class="main__wrapper">
       <main>
         <% const article = articles.find(article => article.id === desiredArticleId); %>
-        <!-- <h1>The Codepen Times</h1> -->
         <div class="main__logo">
           <img src="<%= logoUrl %>" alt="Main Logo" />
         </div>
@@ -53,37 +52,28 @@
             </figcaption>
           </figure></a
         ><a
+          id="article-<%= article.id %>"
           class="item-with-image plan span--2 long--2"
           href="javascript:void(0)"
           ><img
             class="mid__wide"
-            src="https://media.discordapp.net/attachments/1204830926434078750/1205736714753277952/mundstock_realistic_and_detailed_cartoon_style_a_crime_scene_on_041190ee-4d3f-407b-87fb-4725fd142d1a.png?ex=65d974d2&is=65c6ffd2&hm=5fad2c910002805cd054bc24ecff483c086a6e0df77fd2f2ccb52f29b74418b8&=&format=webp&quality=lossless&width=556&height=445"
+            src="<%= articles[1].imageUrl %>"
           />
-          <h4>Tensiones entre Pandillas Estallan en Chamberlain Hills</h4>
+          <div>
+
+          </div>    
+          <h4> <%- articles[1].title %> </h4>
           <div class="multi-column">
             <p>
-              Las tranquilas calles de Chamberlain Hills estallaron en caos
-              anoche mientras retumbaban los disparos por el vecindario. Fuentes
-              indican que las tensiones entre las pandillas rivales, los Ballas
-              y las Familias, alcanzaron un punto crítico, resultando en un
-              enfrentamiento violento que dejó varios heridos y edificios
-              dañados. Las autoridades instan a los residentes a permanecer en
-              sus hogares y reportar cualquier actividad sospechosa. El
-              Departamento de Policía de Los Santos ha aumentado las patrullas
-              en el área para prevenir más violencia.Las autoridades instan a
-              los residentes a permanecer en sus hogares y reportar cualquier
-              actividad sospechosa. El Departamento de Policía de Los Santos ha
-              aumentado las patrullas en el área para prevenir más violencia.
+              <%- articles[1].content %>
             </p>
           </div></a
         ><a class="hogwarts" href="javascript:void(0)">
           <div class="hogwarts__title">
-            50% de Descuento en Resort de Diamond Casino
+            <%- articles[2].title %> 
           </div>
-          <div class="hogwarts__image">
-            <span>Limited time offer</span
-            ><img
-              src="https://media.discordapp.net/attachments/1204830926434078750/1205739255218053211/mundstock_realistic_and_detailed_cartoon_style_coupon_discount__a9f14ef4-d9ce-4898-8931-f19e7cc6bd19.png?ex=65d9772f&is=65c7022f&hm=10a7b7ea174c29b651a18ee4c05d9ef292ef93459a9a02e0ae24961c8f17a468&=&format=webp&quality=lossless&width=254&height=445"
+          <div class="hogwarts__image"><img
+              src="<%= articles[2].imageUrl %>"
             /></div></a
         ><a class="item-with-image pasta with-border" href="javascript:void(0)">
           <h4>Vacas Escapan de la Granja</h4>
@@ -106,36 +96,24 @@
             la orilla.
           </p></a
         ><a class="item-with-image style" href="javascript:void(0)">
-          <h4>Hombre Volador Sighting en Vinewood</h4>
+          <h4><%- articles[3].title %></h4>
           <p>
-            Testigos afirman haber visto a un hombre volando sobre los
-            rascacielos de Vinewood usando lo que parecían ser mochilas
-            propulsoras. Las autoridades están investigando el incidente
-            mientras los residentes especulan sobre la identidad del misterioso
-            "hombre volador".
-            <em
-              >Fue increíble. Estaba caminando por la acera y de repente vi a
-              este tipo volando por encima de mí, pensé que estaba
-              alucinando.</em
-            >. - Testigo Anónimo.
+            <%- articles[3].content %>
           </p></a
         ><a class="item-with-image toggles" href="javascript:void(0)"
           ><img
-            src="https://media.discordapp.net/attachments/1204830926434078750/1205749196494348309/mundstock_realistic_and_detailed_cartoon_style_a_militar_helico_a73a169b-2d07-4655-a196-b262bc7d1964.png?ex=65d98072&is=65c70b72&hm=dce5e58fd0f67b12b2815e7f7bb8913740c9317d975620bec0e452e910435233&=&format=webp&quality=lossless&width=445&height=445"
+            src="<%= articles[4].imageUrl %>"
           />
-          <h4>Helicóptero Desaparecido en el Monte Chiliad</h4>
+          <h4><%= articles[4].title %></h4>
           <p>
-            Autoridades reportan la misteriosa desaparición de un helicóptero
-            privado que sobrevolaba el Monte Chiliad. Aunque se desplegó un
-            equipo de búsqueda y rescate, no se han encontrado rastros del
-            aparato ni de sus ocupantes.
+            <%= articles[4].content %>
           </p></a
         ><a class="menu" href="javascript:void(0)">
           <figure>
             <img
-              src="https://media.discordapp.net/attachments/1204830926434078750/1205746250587045988/mundstock_realistic_and_detailed_cartoon_style_a_long_distance__f82b3cac-1247-40ff-8105-8f4da07405dd.png?ex=65d97db3&is=65c708b3&hm=609272e358514e2840aa997cff8d94816a903d60faeea88a550c331b5b654c46&=&format=webp&quality=lossless&width=445&height=445"
+              src="<%= articles[3].imageUrl %>"
             />
-            <figcaption>Fotografía tomada por un Ciudadano Anónimo</figcaption>
+            <figcaption> <%- articles[3].imageLegend %></figcaption>
           </figure></a
         ><a class="social" href="javascript:void(0)"
           ><img
@@ -197,8 +175,7 @@
             <div class="pie__content">
               <h4>¡Smoke on the Water - Tu Destino para Cannabis Medicinal!</h4>
               <p>
-                No man is left behind. There's infinite pie with this one div
-                and a repeating background.
+                ¡Visítanos hoy mismo en cualquiera de nuestras sucursales y descubre los beneficios del cannabis medicinal de calidad premium en Smoke on the Water!
               </p>
             </div></a
           ><a class="sidebar-item captcha" href="javascript:void(0)">
