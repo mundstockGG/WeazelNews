@@ -18,9 +18,9 @@ This project is an interactive web application designed to emulate a Weazel News
 
 ## Usage:
 
-1. Access the Weazel News site in-game via the designated URL or interface.
-2. Open the JSON and start editing:
-Article #1 Title: 36 characters maximum
+### Article #1 
+1. Title: 36 characters max.
+2. Description: 811 characters max.
 
 ## Contributing:
 
