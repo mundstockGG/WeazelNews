@@ -1,13 +1,19 @@
 {
     "logoUrl": "https://media.discordapp.net/attachments/841197221578801172/1205758405134913566/NTeNCse.png?ex=65d98905&is=65c71405&hm=1acbd4d740759050ab4bf1488e4dc3b488ce8ce34f1711431611c5e09186c49d&=&format=webp&quality=lossless&width=1200&height=165",
+    "edition": "#2",
     "articles": [
       {
-        "title": "Article 1",
-        "imageUrl": "/path/to/article1/image.png",
-        "content": "Content of article 1..."
+        "id": 1,
+        "title": "¡Temporada de Caza en Blaine County!",
+        "imageUrl": "https://media.discordapp.net/attachments/1204830926434078750/1205731051586981948/mundstock_realistic_and_detailed_cartoon_style_a_person_hunting_6f557612-cd72-4f8d-8a44-0f186352f695.png?ex=65d96f8c&is=65c6fa8c&hm=50b06d087187e477201017dfcc8e21e2ccd7f269783aed773c966d331cd0cffb&=&format=webp&quality=lossless&width=531&height=531",
+        "content1": "La emoción está en el aire en Blaine County mientras los residentes se preparan para la esperada apertura de la temporada de caza. Este año, el Departamento de Vida Silvestre ha anunciado una temporada excepcionalmente larga y una lista expandida de presas, incluidos ciervos, jabalíes, coyotes y más.",
+        "content2": "Para aquellos que no participan en la caza, esta temporada ofrece una oportunidad única para disfrutar de la belleza natural de Blaine County y apoyar la tradición local. Se anima a los no cazadores a disfrutar de caminatas escénicas, paseos en bicicleta y observación de vida silvestre en áreas designadas.",
+        "content3": "<em>Recordemos cazar de manera responsable y respetuosa, manteniendo siempre la seguridad en mente. Que esta temporada traiga buenos recuerdos y experiencias para todos los que participan</em>, dijo el Alcalde.",
+        "imageLegend": "Temporada de Caza Abierta en todo el condado de Blane"
       },
       {
-        "title": "Article 2",
+        "id": 2,
+        "title": "Tensiones entre Pandillas Estallan en Chamberlain Hills",
         "imageUrl": "/path/to/article2/image.png",
         "content": "Content of article 2..."
       }
