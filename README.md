@@ -18,9 +18,13 @@ This project is an interactive web application designed to emulate a Weazel News
 
 ## Usage:
 
-### Article #1 
+### Editing Article #1 
 1. Title: 36 characters max.
 2. Description: 811 characters max.
+
+### Editing Article #2
+1. Title: 55 characters max.
+2. Description: 919 characters max.
 
 ## Contributing:
 
