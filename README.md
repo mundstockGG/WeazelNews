@@ -1,4 +1,4 @@
-![Weazel News Logo](https://media.discordapp.net/attachments/841197221578801172/1205758405134913566/NTeNCse.png?ex=65d98905&is=65c71405&hm=1acbd4d740759050ab4bf1488e4dc3b488ce8ce34f1711431611c5e09186c49d&=&format=webp&quality=lossless&width=1200&height=165)
+![Weazel News Logo](https://static.wikia.nocookie.net/sanpedia/images/2/2d/WEAZEL_NEWS_Logo.png/revision/latest?cb=20230130041135&path-prefix=fr)
 
 # Interactive Weazel News for FiveM RP Server
 
